@@ -35,6 +35,7 @@ steps:
     configuration: '$(buildConfiguration)'
     versioningScheme: 'byEnvVar'
     versionEnvVar: 'packageVersion'
+    packDirectory: '$(Build.ArtifactStagingDirectory)'
 
 - task: NuGetAuthenticate@1
   displayName: 'Authenticate to Azure Artifacts'
