@@ -45,4 +45,4 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: 'stringchecker-feed'
+    publishVstsFeed: 'StringCheckerProject/stringchecker-feed'
